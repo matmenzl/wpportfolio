@@ -60,6 +60,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
   padding-bottom: 40px;
 }
 
+html {
+    border-top-width: 8px;
+    border-top-style: solid;
+    border-top-color: rgb(112, 234, 170);
+}
+
 body {
   font-size: 62.5%;
   letter-spacing: 0.025em;
@@ -156,7 +162,8 @@ header h1.open {
   left: 20px;
 }
 header h1 a {
-  background: #384047;
+  background: rgb(198, 66, 79);
+;/* #384047 */
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
