@@ -60,7 +60,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
   padding-bottom: 40px;
 }
 
-html {
+html, nav {
     border-top-width: 8px;
     border-top-style: solid;
     border-top-color: rgb(112, 234, 170);
@@ -185,15 +185,16 @@ header h1 a {
   transition: all 300ms ease-in-out;
 }
 header h1 a:hover {
-  background: #2d3339;
-  color: white;
+  background: #FFEB3B;
+  color: black.btn:hover;
 }
 header nav h1.open {  
-  z-index: 101;
+  z-index: 100;
 }
 .logged-in header nav h1.open {
-  top: 55px;
+  top: 28px;
 }
+
 header nav h1.open a {
   margin: 0;
 }
@@ -668,8 +669,8 @@ input#s {
   margin: 10px 0 20px;
 }
 .btn:hover, #submit:hover, .comment .comment-reply-link:hover {
-  background: #2d3339;
-  color: white;
+  background: #FFEB3B;
+  color: black;
 }
 .btn:active, #submit:active {
   background: #5a6672;
