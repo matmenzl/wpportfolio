@@ -637,7 +637,19 @@ textarea:focus {
   box-shadow: inset 0 0 0 2px #384047;
 }
 
+/*new button style*/
 .btn, #submit, .comment-reply-link, #searchsubmit {
+  background-color: #fff;
+  border-top: 2px solid #335DC3;
+  border-right: 4px solid #335DC3;
+  border-bottom: 4px solid #335DC3;
+  border-left: 2px solid #335DC3;
+  color: #335DC3;
+  margin-right: 5px;
+}
+
+/*old button style*/
+/*.btn, #submit, .comment-reply-link, #searchsubmit {
   display: inline-block;
   background: #384047;
   font-size: 1.6em;
@@ -649,7 +661,8 @@ textarea:focus {
   -o-border-radius: 2px;
   border-radius: 2px;
   box-shadow: none;
-}
+}*/
+
 #submit, #searchsubmit {
   width: auto;
   font-size: .9em;
