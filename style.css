@@ -1000,3 +1000,7 @@ ol.children {
 .article-list .articles > li {
   margin: 20px 0 50px;
 }
+
+ul.post-meta.no-bullet > li {
+  display:block;
+}
