@@ -1,10 +1,5 @@
-<?php 
-/*
-  Template name: Portfolio Page
-*/
-  ?>
+<?php get_header(); ?>
 
-<?php get_header(); ?>  
 
 <section class="row">
   <div class="small-12 columns text-center">
@@ -13,10 +8,12 @@
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       
         <h1><?php the_title(); ?></h1>
-        <?php the_content(); ?>       
-      
-      <?php endwhile; endif; ?>
+        <p><?php the_content(); ?></p>
 
+      <?php endwhile; else : ?>
+        <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+      <?php endif; ?>
+      
     </div>
   </div>
 </section>
